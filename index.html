@@ -61,13 +61,89 @@
         </nav>
 </div>
 <!--------------------------------------- header image --------------------------------------->
-<div id="header">
+<!-- <div id="header">
 	  <div class="container text-center">
 		<div class="header-box">
 			<h1><span>S</span>poorthy <span>O</span>rganization</h1>
 		</div>
 	 </div>
+</div> -->
+
+<style>
+  .cor-block-1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url('images/main.jpeg');
+    background-size: cover;
+    width: 100vw;
+    height: 80vh;
+    padding-left: 16vw;
+    padding-top: 25vh;
+
+}
+
+.cor-block-3 {
+    background: url('images/home_images/1-3.jpg');
+    background-size: cover;
+    width: 100vw;
+    height: 80vh;
+    padding-left: 16vw;
+    padding-top: 25vh;
+
+}
+
+.cor-block-2 {
+  background: url('images/home_images/2-1.jpg');
+  background-size: cover;
+  width: 100vw;
+  height: 80vh;
+  padding-left: 16vw;
+  padding-top: 25vh;
+}
+
+.caption-cor {
+  padding: 3px;
+  border-radius: 20px;
+}
+</style>
+
+<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" data-aos="fade-up">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active caption-cor"></li>
+    <li data-target="#carouselExampleCaptions" data-slide-to="1" class="caption-cor"></li>
+    <li data-target="#carouselExampleCaptions" data-slide-to="2" class="caption-cor"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active cor-animation">
+      <div class="cor-block-1">
+        <!-- <h1 class="slide-corousel">Creating hope, changing lives</h1> -->
+        <div class="header-box">
+          <h1><span>S</span>poorthy <span>O</span>rganization</h1>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item cor-animation">
+      <div class="cor-block-2">
+        <!-- <h1 class="slide-corousel">Creating hope, changing lives</h1> -->
+      </div>
+    </div>
+    <div class="carousel-item cor-animation">
+      <div class="cor-block-3">              
+        <!-- <h1 class="slide-corousel">Creating hope, changing lives</h1> -->
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
 </div>
+
+
+
 <!---------------------------------------- jumbotron ---------------------------------------->
 <div class="container-fluid" >
 <div class="row jumbotron" style="margin: 0;">
@@ -135,6 +211,102 @@
         </div>
 	 </div>
  </section>
+
+<!-- About the Team -->
+
+<style>
+  h6{
+    font-size: 15px;
+  }
+  @media screen and (min-width:768px) {
+    .img-fluid {
+      border-radius: 50%;
+    }
+    .row {
+      text-align: center !important;
+    }
+  }
+  @media screen and (max-width:768px) {
+    .carousel-cell {
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+    }
+  }
+</style>
+
+<section class="bg-light container" style="padding-bottom: 3px;padding-top: 1px;">
+  <div class="about text-center">
+      <h2 class="mb-5">Our Team<hr class="green-hr"></h2>
+  </div>
+  <div class="container-fluid row" id="team" data-flickity='{ "wrapAround": true ,"autoPlay": 1500 }'>
+      <!--Kuwarjeet singh card-->
+      <div class="carousel-cell " data-aos="zoom-in" data-aos-easing="ease-in-sine" data-aos-delay="100">
+          <div class=" container-fluid">
+              <div class="">
+                <div class="">
+                  <img src="images/team/Yadaiah.jpg" alt="Kuwarjeet Singh" class='img-fluid'style="width:300px;height:350px;">
+                  <h4 class="about-name">K.Yadaiah</h4>
+                  <h6>President</h6>
+                </div>
+              </div>
+            </div>
+      </div>
+      <!--Harman arora card-->
+      <div class="carousel-cell" data-aos="fade-left" data-aos-easing="ease-in-sine" data-aos-delay="100">
+          <div class=" container-fluid">
+              <div class="">
+                <div class="">
+                  <img src="images/team/padmarao.jpg" class='img-fluid' alt="Harman arora" style="width:300px;height:350px;">
+                  <h4 class="about-name">Padma Rao Mekala</h4>
+                  <h6>Vice President</h6>
+                </div>
+              </div>
+            </div>
+      </div>
+
+      <!--Avleen kaur card-->
+      <div class="carousel-cell" data-aos="zoom-in" data-aos-easing="ease-in-sine" data-aos-delay="100">
+        <div class=" container-fluid">
+            <div class="">
+              <div class="">
+                <img src="images/team/K.Sathyanarayana.jpg" class='img-fluid' alt="Avleen Kaur" style="width:300px;height:350px;">
+                <h4 class="about-name">Sathyanarayana Kandi</h4>
+                <h6>General Secretary</h6>
+              </div>
+            </div>
+          </div>
+    </div>
+
+      <!--Yashvi parvani card-->
+      <div class="carousel-cell" data-aos="fade-left" data-aos-easing="ease-in-sine" data-aos-delay="100">
+          <div class=" container-fluid">
+              <div class="">
+                <div class="">
+                  <img src="images/team/K Saroja.jpg" class='img-fluid' alt="Yashvi parwani" style="width:300px;height:350px;">
+                  <h4 class="about-name">Sarojana Kuntolla</h4>
+                  <h6>Treasurer</h6>
+                </div>
+              </div>
+            </div>
+      </div>
+      
+      <!--Bineet singh card-->
+      <div class="carousel-cell" data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-delay="100">
+          <div class=" container-fluid">
+              <div class="">
+                <div class="">
+                  <img src="images/team/B venkatesham.jpg" class='img-fluid'alt="Bineet Singh" style="width:300px;height:350px;">
+                  <h4 class="about-name">Venkatesham Battula</h4>
+                  <h6>Joint Secretary</h6>
+                </div>
+              </div>
+            </div>
+      </div>
+    </div>
+</section>
+
+
+
 <!------------------- EDUCATION @TRPWS SECTION --------------------------->
 <section id="portfolio" class="portfolio">
       <div class="container" >
